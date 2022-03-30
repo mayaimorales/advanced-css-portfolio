@@ -5,3 +5,45 @@
     --light-grey: #D3D3D3;
     --orange: orange;
 }
+
+::selection{
+    background-color: var(--orange);
+    color: var(--dark-grey);
+}
+
+body {
+    font-family: OCR A Std, monospace;
+    
+    line-height: 1.5;
+    color: var(--light-grey);
+    background-color: var(--dark-grey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.work-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    color: var(--orange);
+
+    outline: 2px dashed var(--light-grey);
+    outline-offset: -2px;
+}
+
+.work-display:hover{
+    box-shadow: inset 0px 0px 8px var(--emerald-green);
+}
+
+@media screen and (min-width: 768px) {
+
+} 
