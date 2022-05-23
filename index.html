@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced CSS Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel=" stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
 </head>
@@ -14,18 +15,21 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-work">My Work</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <a href="#maya"><li>Home</li></a>
+                    <a href="#about-me"><li>About Me</li></a>
+                    <a href="#my-work"><li>My Work</li></a>
+                    <a href="#contact-me"><li>Contact Me</li></a>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <h1>Maya Morales</h1>
+    <h1 id="maya">Maya Morales</h1>
 
-    <img src="/assets/images/image-1.JPG">
+    <div id="img-box">
+        <img src="/assets/images/image-2.JPG" />
+    </div>
+
 
     <h2 id="about-me">About Me</h2>
     <p>
@@ -37,15 +41,38 @@
     <div>
         <h2 id="my-work">My Work</h2>
 
-        <ul id="work-links">
+        <img src="..." class="img-fluid" alt="...">
+
+       <!-- <ul id="work-links">
             <a>
                 <li>Code Refactor</li>
             </a>
             <a>
                 <li></li>
             </a>
-        </ul>
+        </ul> --> 
     </div>
+    <div>
+        <h2 id="contact-me">Contact Me</h2>
+        <p>
+            To contact me for inquiries, opportunities, and critiques, I am reachable through email and LinkedIn in
+            which I have listed below.
+        </p>
+        <div style="align-items:center;">
+            <ul id="contact-ul">
+                <li id="contact-li" style="display:inline-block; margin-left: 90px;">Email: mayainomorales@gmail.com
+                </li>
+                <a href="https://www.linkedin.com/in/maya-morales-1191351bb/">
+                    <li id="contact-li" style="display: inline-block; color: #D3D3D3; margin-left: 90px;">LinkedIn</li>
+                </a>
+                <a href="https://github.com/mayaimorales">
+                    <li id="contact-li" style="display:inline-block; color: #D3D3D3; margin-left: 90px;">GitHub</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </body>
 
 </html>

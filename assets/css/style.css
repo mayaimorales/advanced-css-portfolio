@@ -29,11 +29,27 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    color: var(--dark-grey);
 }
 
 nav li {
     display: inline-block;
     margin-left: 70px;
+    color: var(--dark-grey);
+}
+
+.img-box {
+    flex: 0 0 40%;
+    height: 100%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 ::selection{
@@ -57,6 +73,7 @@ h5,
 h6 {
     color: var(--orange);
     font-weight: 700;
+    text-align: center;
 }
 
 .work-display {
@@ -72,6 +89,10 @@ h6 {
 
 .work-display:hover{
     box-shadow: inset 0px 0px 8px var(--emerald-green);
+}
+
+.contact-li {
+    display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
