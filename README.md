@@ -14,7 +14,19 @@ I utilized HTML and CSS elements to create the overall design and layout of the 
 
 ## Usage 💡
 
+To navigate the portfolio, simply use the navbar and click on the specified sections in which you would like to see. When clicked. the UI will scroll to the appropriate section. When the images are selected, it will then direct you to the repository or deployed site of the corresponding application.
+
 ## Features ⚡️
+
+### Languages Used
+
+* HTML
+* CSS
+
+### Notable
+
+* The website will scroll to the corresponding section when selected through the navbar.
+* There is utilization of custom CSS and Bootstrap CSS library
 
 ## Contributor 🙌
 
