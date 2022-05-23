@@ -6,6 +6,36 @@
     --orange: orange;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--orange);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+}
+
 ::selection{
     background-color: var(--orange);
     color: var(--dark-grey);
@@ -47,7 +77,3 @@ h6 {
 @media screen and (min-width: 768px) {
 
 } 
-
-title {
-    text-align: center;
-}
