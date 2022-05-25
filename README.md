@@ -6,6 +6,7 @@
 * [ Usage ](#usage-💡)
 * [ Features ](#features-⚡️)
 * [ Contributor ](#contributor-🙌)
+* [ License ](#license)
 
 ## Description 📝
 
@@ -33,3 +34,7 @@ To navigate the portfolio, simply use the navbar and click on the specified sect
 **Maya Morales** - [LinkedIn](https://www.linkedin.com/in/maya-morales-1191351bb/) - [GitHub](https://github.com/mayaimorales) - [Email](mayainomorales@gmail.com)
 
 I am an aspiring full-stack developer. Please feel free to contact me with any questions, critiques, or other inquiries.
+
+## License
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
