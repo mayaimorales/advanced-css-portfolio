@@ -3,6 +3,7 @@
 ## Table of Contents 📖
 
 * [ Description ](#description-📝)
+* [ Application Preview ](#application-preview-⭐)
 * [ Usage ](#usage-💡)
 * [ Features ](#features-⚡️)
 * [ Contributor ](#contributor-🙌)
@@ -12,6 +13,10 @@
 
 In this project, I created a digital portfolio containing a brief introduction about me, and a display of some of my current work. 
 I utilized HTML and CSS elements to create the overall design and layout of the page. 
+
+## Application Preview ⭐
+
+![alt text](/assets/images/portfolio-ss.png)
 
 ## Usage 💡
 
